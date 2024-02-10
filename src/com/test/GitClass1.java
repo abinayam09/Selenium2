@@ -11,10 +11,15 @@ private void login() {
 private void product() {
 System.out.println("product add done by story 2");
 }
+private void addToCart() {
+	System.out.println("cart added by story3");
+
+}
 public static void main(String[] args) {
 	GitClass1 g = new GitClass1();
 	g.course();
 	g.login();
 	g.product();
+	g.addToCart();
 }
 }
