@@ -8,18 +8,14 @@ System.out.println("Java");
 private void login() {
 	System.out.println("login done by story 1");
 }
-private void product() {
-System.out.println("product add done by story 2");
-}
 private void addToCart() {
 	System.out.println("cart added by story3");
-
 }
+
 public static void main(String[] args) {
 	GitClass1 g = new GitClass1();
 	g.course();
 	g.login();
-	g.product();
 	g.addToCart();
 }
 }
